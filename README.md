@@ -1,2 +1,184 @@
 # basic_python_br
 Basic Python Introduction - Base Repo to fork
+
+# Curso Básico–Completo de Python
+
+## Tópico 1. Variables y tipos de datos
+
+```python
+nombre = "Angie"
+edad = 30
+activo = True
+type(nombre)
+```
+
+---
+
+## Tópico 2. Operadores
+
+```python
+a + b
+a - b
+a * b
+a / b
+a % b
+a == b
+a != b
+a > b
+a < b
+and
+or
+not
+```
+
+---
+
+## Tópico 3. Condicionales
+
+```python
+edad = 18
+
+if edad >= 18:
+    print("Mayor de edad")
+else:
+    print("Menor")
+```
+
+---
+
+## Tópico 4. Listas, tuplas y diccionarios
+
+```python
+frutas = ["manzana", "pera"]
+frutas.append("uva")
+
+coord = (10, 20)
+
+persona = {
+    "nombre": "Ana",
+    "edad": 25
+}
+```
+
+---
+
+## Tópico 5. Bucles
+
+```python
+for f in frutas:
+    print(f)
+
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+```
+
+---
+
+## Tópico 6. Funciones
+
+```python
+def saludar(nombre):
+    return "Hola " + nombre
+
+def sumar(a, b=0):
+    return a + b
+```
+
+---
+
+## Tópico 7. Funciones lambda
+
+```python
+doble = lambda x: x * 2
+```
+
+---
+
+## Tópico 8. Programación Orientada a Objetos
+
+```python
+class Usuario:
+    def __init__(self, nombre):
+        self.nombre = nombre
+
+    def saludar(self):
+        return "Hola soy " + self.nombre
+```
+
+---
+
+## Tópico 9. Manejo de errores
+
+```python
+try:
+    int("abc")
+except:
+    print("Error")
+```
+
+---
+
+## Tópico 10. Manejo de archivos
+
+```python
+with open("data.txt", "w") as f:
+    f.write("Hola")
+
+with open("data.txt") as f:
+    print(f.read())
+```
+
+---
+
+## Tópico 11. Importar módulos
+
+```python
+import math
+math.sqrt(16)
+from math import sqrt
+```
+
+---
+
+## Tópico 12. Comprensión de listas
+
+```python
+numeros = [x*2 for x in range(5)]
+```
+
+---
+
+## Tópico 13. JSON
+
+```python
+import json
+
+data = {"nombre": "Ana"}
+json.dumps(data)
+json.loads('{"edad":30}')
+```
+
+---
+
+## Tópico 14. Taller práctico (Al final de cada uno mostrar en pantalla el resultado)
+
+1. Crear variable nombre 
+2. Sumar dos números 
+3. Validar número par  
+4. Recorrer lista  
+5. Función multiplicar  
+6. Diccionario persona  
+7. Mostrar claves  
+8. Clase Producto  
+9. Try/except  
+10. Lista 1–10  
+11. Duplicar lista  
+12. Mayor de dos  
+13. Leer archivo  
+14. Dict a JSON  
+15. Agent simple  
+
+---
+
